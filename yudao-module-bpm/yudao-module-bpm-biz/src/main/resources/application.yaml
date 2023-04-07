@@ -27,6 +27,11 @@ spring:
     redis:
       time-to-live: 1h # 设置过期时间为 1 小时
 
+  #  aop 配置
+  aop:
+    auto: true
+    proxy-target-class: true
+
 --- #################### 接口文档配置 ####################
 
 springdoc:
